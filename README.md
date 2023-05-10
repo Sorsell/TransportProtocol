@@ -5,7 +5,7 @@ The client acts as the sender.
 
 The program is written in C using using a laptop using ubuntu linux.
 
-After building the project it creates 2 execuutable files, one for the server and one for the client.
+After building the project it creates 2 executable files, one for the server and one for the client.
 
 By running these simultaneously in separate terminal windows you can see all outputs and timestamps.
 The server and client will perform a three-way handshake and establish a connection. After the connection is made the client will send a set of random packages in the form of structs containing the checksum, id, sequence number, flag, window size, text string and repeat function.
